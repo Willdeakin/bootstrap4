@@ -7,6 +7,9 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -44,7 +47,7 @@
         <!--</div>-->
     </nav>
 
-
+    <div class="container alert-container">
     <article class="container mt-3">
         <div class="row d-none d-sm-block">
             <div class="col-12">
@@ -52,9 +55,10 @@
                     <a href="">See here for details!</a>
                 </strong></div>  
             </div>
-        </div>
+        </div></div>
 
         <!-- Callout -->
+        <div class="container callout-container">
         <div class="row">
         <div class="col-12">
         <section class="callout jumbotron text-center">
@@ -65,11 +69,12 @@
             <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
             <button class="btn btn-success btn-lge" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
         </section>
-        </div></div>
+        </div></div></div>
         <!-- /.callout -->
         <hr>
 
         <!-- Quotes -->
+        <div class="container quotes-container">
         <section class="quotes">
         <div class="row">
         <div class="col-12 my-5">
@@ -103,10 +108,12 @@
             </div>
         </div></div>
         </section>
+        </div>
         <!-- /.quotes -->
         <hr>
 
         <!-- Features -->
+        <div class="container features-container">
         <section class="features">
         <div class="row">
         <div class="col-12 my-5">
@@ -133,7 +140,10 @@
             </div></div>
         </section>
         </div>
-        
+        </div>
+        <!--Monthly Favourites-->
+
+        <div class="container monthly-favourites-container">
         <section class="monthly-favourites">
             <div class="row">
                 <div class="col-12 my-5">
@@ -141,7 +151,7 @@
             </div></div>
             <div class="row">
         <p>Every month we at Whiskey Drop choose 5 of our favourite whiskeys to highlight. Please see below for our current picks:</p>
-            <table>
+            <table class="col-12">
             <tr>
             <th>Name</th>
             <th>Origin</th>
@@ -178,6 +188,7 @@
         
         
         </section>
+        </div>
         <!-- /.features -->
     </article>
 
