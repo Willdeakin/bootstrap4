@@ -9,7 +9,7 @@ body{
 .callout-container{
     height:100vh; 
 
-  background: url("../images/whiskey-background.jpg") no-repeat bottom right fixed; 
+  background: url("../images/whiskey-background.png") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -100,6 +100,6 @@ body{
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus{
-    backround-color: #f05f40;
+    background-color: #f05f40;
     border-color:#f05f40;
 }
