@@ -14,7 +14,20 @@
 
 <body>
  <!--Nav-->
-    <nav class="navbar navbar-light navbar-expand-sm bg-light">
+    <div class="container-fluid navalert-container">
+
+        <div class="container-fluid alert-container">
+        <div class="row d-none d-lg-block">
+            <div class="col-12">
+                <div class="site-wide-alert alert alert-warning"><strong>We've got a sale on. Get a 12-month subscription for the price of 6!
+                    <a href="">See here for details!</a>
+                </strong></div>  
+            </div>
+        </div></div>
+
+
+    <nav class="navbar navbar-dark navbar-expand-sm">
+
         <a href="/" class="navbar-brand">
                     Whiskey Drop</a>
 
@@ -42,20 +55,12 @@
         </div>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door</i></p>
-            <a href="/login">Sign In / Sign Up</a>
+            <a href="/login" class="btn btn--cta btn--red"> Sign In/Sign Up </a>
         </div>
         <!--</div>-->
     </nav>
-
-    <div class="container alert-container">
-    <article class="container mt-3">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning"><strong>We've got a sale on. Get a 12-month subscription for the price of 6!
-                    <a href="">See here for details!</a>
-                </strong></div>  
-            </div>
-        </div></div>
+</div>
+       
 
         <!-- Callout -->
         <div class="container-fluid callout-container">
@@ -143,12 +148,13 @@
         </section>
         </div>
         </div>
-        <!--Monthly Favourites-->
 
+        <!--Monthly Favourites-->
+<!--
         <div class="container monthly-favourites-container">
-        <section class="monthly-favourites">
-            <div class="row">
-                <div class="col-12 my-5">
+        <div class="row">
+        <div class="col-12 my-5">
+            <section class="monthly-favourites"></section>
                     <h2 class="text-uppercase">Monthly Favourites</h2>
             </div></div>
             <div class="row">
@@ -191,8 +197,8 @@
         
         </section>
         </div>
-        <!-- /.features -->
-    </article>
+-->
+
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
     <div class="modal-dialog" role="document">
