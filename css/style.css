@@ -2,6 +2,15 @@ body{
     font-family: 'JetBrains Mono', monospace;
 }
 
+.container-wrapper{
+
+}
+
+.container-wrapper--red{
+    background-color:orangered;
+    color:white;
+}
+
 .alert-container{
     padding-left:0;
     padding-right:0;
@@ -52,6 +61,13 @@ body{
     
 }
 
+/*content containers*/
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 /*navbar*/
 
 .navalert-container{
@@ -82,19 +98,40 @@ body{
     font-weight: bold;
 }
 
+/*page headers*/
+
+.page-header{
+    margin-bottom:0;
+    border-bottom:0;
+    text-align:center;
+}
+
+.page-header h2{
+    margin-top:0;
+}
+
+.quotes .page-header{
+    margin-bottom:25px;
+}
+
 /*block dividers*/
 
 .block-divider{
     width:75px;
     height:5px;
     border:0;
+    background-color:grey;
 }
 
-.blockdivider--orange{
+.block-divider--orange{
     background-color:orangered;
 }
 
-.blockdivider--short{
+.block-divider--white{
+    background-color:white;
+}
+
+.block-divider--short{
     width:35px;
 }
 
@@ -144,4 +181,25 @@ body{
 .btn--red:active:focus{
     background-color: #f05f40;
     border-color:#f05f40;
+}
+
+.features{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.features i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.features .btn{
+    background-color:white;
+    border-color:white;
+    border-radius: 15px;
+    min-width:100px;
+    font-weight:bold;
+    margin-top:10px;
+    color:orangered;
 }
